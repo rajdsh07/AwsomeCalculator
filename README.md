@@ -69,3 +69,9 @@ Subtraction --> Code
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+        
+        
+        Multiuplication --> ^%&$%^$%^$
+        
+        
+        

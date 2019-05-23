@@ -50,3 +50,22 @@ LAB #2
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+
+
+
+Subtraction --> Code
+[Test]
+        public void GetSubtraction_Input2point0and1point0_Returns1point0()
+        {
+            // Arrange
+            double number1 = 2.0;
+            double number2 = 1.0;
+            double expectedResult = number1 - number2;
+            Calc testCalc = new Calc(number1, number2);
+
+            //Act
+            double actualResult = testCalc.GetSubtraction();
+
+            //Assert
+            Assert.AreEqual(expectedResult, actualResult);
+        }
